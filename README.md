@@ -2,7 +2,7 @@
 
 ## Description
 
-This is an implementation of a Dummy Chat Server implemented which should serve as a sample project
+This is an implementation of a Dummy Chat Server which should serve as a sample project
 for a backend implementation following the principles of OOP and
 Clean Architecture.
 
