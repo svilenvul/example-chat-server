@@ -17,7 +17,7 @@ src/main/java
 └── com
     └── example
         └── chatserver
-            ├── adapter
+            ├── data
             │   ├── entities
             │   ├── repository
             │   └── validation

@@ -1,7 +1,7 @@
 package com.example.chatserver.service;
 
-import com.example.chatserver.adapter.entities.MessageEntity;
-import com.example.chatserver.adapter.repository.MessageRepository;
+import com.example.chatserver.data.entities.MessageEntity;
+import com.example.chatserver.data.repository.MessageRepository;
 import com.example.chatserver.domain.exception.MessageValidationException;
 import com.example.chatserver.domain.exception.ValidatorNotFoundException;
 import com.example.chatserver.domain.mapping.Mapper;

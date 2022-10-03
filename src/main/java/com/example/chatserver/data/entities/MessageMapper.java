@@ -1,4 +1,4 @@
-package com.example.chatserver.adapter.entities;
+package com.example.chatserver.data.entities;
 
 import com.example.chatserver.domain.mapping.Mapper;
 import com.example.chatserver.domain.models.Message;

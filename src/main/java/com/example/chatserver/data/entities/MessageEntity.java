@@ -1,4 +1,4 @@
-package com.example.chatserver.adapter.entities;
+package com.example.chatserver.data.entities;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

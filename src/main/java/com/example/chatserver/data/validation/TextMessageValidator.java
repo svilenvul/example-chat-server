@@ -1,4 +1,4 @@
-package com.example.chatserver.adapter.validation;
+package com.example.chatserver.data.validation;
 
 import com.example.chatserver.domain.models.Message;
 import com.example.chatserver.domain.models.MessageType;
@@ -7,13 +7,14 @@ import com.example.chatserver.domain.validation.MessageValidator;
 import org.springframework.stereotype.Component;
 
 @Component
-public class EmotionMessageValidator implements MessageValidator {
-  public static final int MIN_LENGTH = 2;
-  public static final int MAX_LENGTH = 10;
+public class TextMessageValidator implements MessageValidator {
+
+  public static final int MIN_LENGTH = 1;
+  public static final int MAX_LENGTH = 160;
 
   @Override
   public MessageType getType() {
-    return MessageType.EMOTION;
+    return MessageType.TEXT;
   }
 
   @Override
@@ -34,10 +35,6 @@ public class EmotionMessageValidator implements MessageValidator {
     }
 
     if (TextUtils.lengthIsLessThen(payload, MIN_LENGTH)) {
-      return false;
-    }
-
-    if (TextUtils.hasNumbers(payload)) {
       return false;
     }
 

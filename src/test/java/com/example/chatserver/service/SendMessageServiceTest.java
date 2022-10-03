@@ -6,9 +6,9 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoInteractions;
 import static org.mockito.Mockito.when;
 
-import com.example.chatserver.adapter.entities.MessageMapper;
+import com.example.chatserver.data.entities.MessageMapper;
 import com.example.chatserver.domain.models.MessageType;
-import com.example.chatserver.adapter.repository.MessageRepository;
+import com.example.chatserver.data.repository.MessageRepository;
 import com.example.chatserver.domain.exception.MessageValidationException;
 import com.example.chatserver.domain.exception.ValidatorNotFoundException;
 import com.example.chatserver.domain.models.Message;
